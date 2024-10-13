@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.container {
+  background-color: darkred;
+  width: 100vw;
+  height: 100vh;
+  /* para darle centrado a la .card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(24, 23, 23);
+}
